@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+}
+
+#course-title {
+    display: block;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111827;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #374151;
+    color: #facc15;
+}
+
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    align-items: start;
+}
+
+.card img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card p {
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.3rem;
+}
+
+@media (max-width: 700px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card-content {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
