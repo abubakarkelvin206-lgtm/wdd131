@@ -1,0 +1,35 @@
+
+
+    .header-content {
+        justify-content: center;
+        padding: 1.5rem;
+    }
+
+    .header-content span {
+        font-size: 2rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav a {
+        border-top: none;
+        padding: 1rem 2rem;
+    }
+
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    figure img {
+        height: 220px;
+        object-fit: cover;
+    }
+}
