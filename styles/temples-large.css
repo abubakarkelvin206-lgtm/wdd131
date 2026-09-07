@@ -1,3 +1,4 @@
+@media screen and (min-width: 700px) {
 
 
     .header-content {
@@ -32,4 +33,4 @@
         height: 220px;
         object-fit: cover;
     }
-
+}
