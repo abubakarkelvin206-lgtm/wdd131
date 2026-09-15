@@ -36,6 +36,11 @@ nav a {
     margin: 0 0.5rem;
 }
 
+.hero {
+    position: relative;
+    width: 100%;
+}
+
 .hero img {
     width: 100%;
     height: auto;
@@ -73,27 +78,6 @@ nav a {
     margin-bottom: 1rem;
 }
 
-.places {
-    padding: 1.5rem;
-    background-color: #f2f2f2;
-}
-
-.places h2 {
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-}
-
-.places article {
-    background-color: var(--secondary-color);
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-.places article img {
-    width: 100%;
-    height: auto;
-    margin-top: 0.75rem;
-}
 
 footer {
     background-color: var(--primary-color);
@@ -103,14 +87,7 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
-    
-
-
- .places {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
- }
+ 
 
  .weather h2::after {
     content: "⛅";
@@ -124,5 +101,26 @@ footer {
  main {
     max-width: 1200px;
     margin: 0 auto;
+ }
+
+
+ .country-info {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 280px;
+ }
+
+ .weather {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    width: 280px;
+ }
+
+ .country-info,
+ .weather {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
  }
 }
