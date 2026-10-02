@@ -1,0 +1,47 @@
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    max-width:900px ;
+    margin:0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+    color: #0b1f3a;
+}
+.light-red {
+    background-color: #E57373;
+    width: 100px;
+    height: 100px;
+}
+.dark-blue {
+    background-color: #0B1F3A;
+    width: 100px;
+    height: 100px;
+}
+
+.wireframe div {
+    border: 1px solid #0b1f3a;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.wireframe.desktop > div {
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.hero-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.wireframe.desktop > .hero-area {
+    grid-column: 1 / -1;
+}
+
+.logo {
+    font-size: 40px;
+}
