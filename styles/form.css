@@ -14,7 +14,9 @@ form {
 
 h1 {
     text-align: center;
-    color: #e02222;
+    color: #1f1212;
+    background-color:#df1313;
+    padding: 1rem;
 }
 
 input[type="date"],

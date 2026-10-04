@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Confirmation page for a submitted product review.">
+        <meta name="description" content="Confirmation page for a submitted product review, where users can rate a product.">
         <meta name="author" content="Abubakar kelvin">
         <link rel="stylesheet" href="styles/form.css">
         <script src="scripts/form.js" defer></script>
@@ -11,9 +11,12 @@
         <title>Product Review</title>
     </head>
     <body>
+        <header>
+            <h1>Product Review </h1>
+        </header>
         <main>
 
-            <h1>Product Review</h1>
+            
             <form method="get" action="review.html">
                 <label for="product">Product Name</label>
                 <select id="product" name="product" required>
@@ -69,5 +72,6 @@
         <footer>
             <p>&copy; <span id="currentyear"></span> Abubakar Kelvin. Nigeria.</p>
             <p>Last Modified: <span id="lastModified"></span></p>
+        </footer>    
     </body>
 </html>
