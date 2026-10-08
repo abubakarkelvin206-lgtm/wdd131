@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Cybersecurity is the practice of protecting systems, networks, and data from digital attacks using technologies, processes, and policies.">
+      <meta name="author" content="Abubakar kelvin">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" href="styles/project.css">
+      <script src="scripts/project.js" defer></script>
+      <title>CyberSafe Guide</title>
+    </head>
+    <body>
+        <header>
+            <h1>CyberSafe Guide</h1>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="threats.html">Common Threats</a>
+                <a href="safety.html">Safety Tips</a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Stay Safe in a Connected World</h2>
+            <p>Welcome to the CyberSafe Guide! Here you will find information and tips to help you stay safe online.</p>
+            <section>
+
+              <h2>Why cybersecurity matters</h2>
+              <p>Cybersecurity is important because it helps protect sensitive information, such as personal data and financial information, from being stolen or compromised by cybercriminals. It also helps prevent cyberattacks that can disrupt business operations and cause financial losses.</p>
+            </section>
+
+            <button id="security-button">Get a Security Tip</button>
+            <p id="security-message"></p>
+            <section>
+
+              <h2>What you will learn</h2>
+              <p>In this guide, you will learn about various aspects of cybersecurity, including common threats, best practices for staying safe online, and steps you can take to protect yourself and your information.</p>
+               <ul>
+                <li>Common Cyber Threats</li>
+                <li>Recognize scams</li>
+                <li>Protect your personal information</li>
+                <li>Securing your devices</li>
+               </ul>
+            </section>   
+
+            <img src="images/cyber.jpg" alt="Cybersecurity concept" loading="lazy" width="289" height="289">
+            <p>Learn how to recognize online threats, protect your personal information, and keep your devices and accounts secure.</p>
+
+            <h2>Ask a Cybersecurity Question</h2>
+            <p>Have a cybersecurity question? Send it below.</p>
+
+            <form method="get" action="#">
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" autocomplete="name" required>
+             <label for="question">Your Question:</label>
+             <textarea id="question" name="question" autocomplete="off" required></textarea>
+             <button type="submit">Submit Question</button>
+            </form> 
+        </main>
+
+        <footer>
+            <p>&copy; <span id="currentyear"></span> Abubakar Kelvin</p>
+            <p id="lastModified"></p>
+            <p><a href="references.html">References</a></p>
+        </footer>
+    </body>    
+</html>
